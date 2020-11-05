@@ -1,0 +1,13 @@
+[SERVER]
+workers   	= 5
+
+[HTTP]
+port      	= 8888
+sign      	= zz-top/0.0.1
+static_path	= www
+
+[DB]
+uri        	= postgresql://127.0.0.1:5432/dev?user=root&password=123qwe
+
+[log]
+level     = debug
