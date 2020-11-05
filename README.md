@@ -17,18 +17,12 @@ cp ../config.txt .
 mkdir www
 ```
 
-папка со статикой
-```bash
-mkdir www
-```
-
 создаем там файл со строчкой
 ```bash
 echo "<html><body>hello</body></html>" > www/index.html
 ```
 
-# так же редактируем url БД в 'config.txt' и запускаем БД перед запуском сервера (а то ругаться будет)
-
+<b>так же редактируем url БД в 'config.txt' и запускаем БД перед запуском сервера (а то ругаться будет)</b>
 
 ## dependencies
 * libpqxx
