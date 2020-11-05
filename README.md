@@ -1,3 +1,5 @@
+<b>всё что подлежит адаптации лежит в папке include/routes по идее</b>
+
 ## compilation
 ```bash
 mkdir build
